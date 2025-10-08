@@ -1,1 +1,8 @@
-(\.|^)stake(\.[a-zA-Z]{2,})$,(\.|^)bet365(\.[a-zA-Z]{2,})$
+//copy and paste into pi-hole -> Domains -> RegEx Filter -> Regular Expression field
+//this adds a regex entry for every gamba site -> update gravity after!
+
+
+(\.|^)stake(\.[a-zA-Z]{2,})$
+(\.|^)bet365(\.[a-zA-Z]{2,})$
+(\.|^)lotto(\.[a-zA-Z]{2,})$
+(\.|^)lotto24(\.[a-zA-Z]{2,})$
